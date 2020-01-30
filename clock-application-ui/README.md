@@ -6,7 +6,7 @@ This is the user interface of the [clock-application](../clock-application) samp
 
 
 1. Start the server application from `../clock-application` as described in `../clock-application/README.md`.
-2. Copy `environment/environment.prod.ts.sample` to `environments/environment.prod.ts`, open it, and replace `<%WEBSOCKET-URL%>` with the public web socket endpoint of the [clock-application](../clock-application) server app.
+2. Copy `src/environments/environment.prod.ts.sample` to `src/environments/environment.prod.ts`, open it, and replace `<%WEBSOCKET-URL%>` with the public web socket endpoint of the [clock-application](../clock-application) server app.
 3. Install the required **npm** packages: 
 
 ```
