@@ -1,0 +1,60 @@
+swagger: '2.0'
+info:
+  description: "."
+  contact:
+    name: API Support
+    url: https://community.fusionfabric.cloud/index.html
+  x-finastra-category: Other
+  x-finastra-subcategory: ''
+  x-finastra-tags: []
+  x-finastra-maturity-level: BETA
+  x-finastra-audience: PUBLIC
+  x-finastra-commitId: 57e5d69943bdd6c4d49f3d422e8fe1b593761c17
+  title: Clock Service Events
+  version: 1.0.1
+  x-finastra-short-description: Clock Service Events
+  x-finastra-channel-type: B2B
+paths:
+  /sample/clock-service/v1/datetime-published:
+    post:
+      tags:
+        - Clock event
+      operationId: clock
+      summary: This event occurs when a new UTC datetime is published.
+      description: This event occurs every 15 seconds when a new UTC datetime in ISO-8601 format is published.
+      consumes:
+        - application/json
+      parameters:
+        - name: event
+          in: body
+          required: true
+          schema:
+            type: object
+            required:
+              - tenant
+            properties:
+              tenant:
+                description: Identifier of the tenant
+                type: string
+              eventTime:
+                description: UTC date and time of event expressed in ISO-8601 format
+                type: string
+            additionalProperties: true
+            example:
+              tenant: sandbox
+              eventTime: '2019-10-21T13:07:28.219'
+      responses:
+        '204':
+          description: No content
+  "/sample/clock-service/v1":
+    options:
+      summary: Responds with header WebHook-Allowed-Origin to allow registering / as an event endpoint.
+      operationId: validateEventEndpoint
+      responses:
+        200:
+          description: OK
+          headers:
+            WebHook-Allowed-Origin:
+              type: string
+              description: Value must be "api.fusionfabric.cloud"
+definitions: {}
