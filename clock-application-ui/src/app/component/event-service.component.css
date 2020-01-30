@@ -1,0 +1,8 @@
+.event-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-container > * {
+  width: 100%;
+}
