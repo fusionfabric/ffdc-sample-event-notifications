@@ -1,6 +1,6 @@
 # Welcome
 
-This is the user interface of the [clock-application](../clock-application) sample app, that consumes event notifications broadcasted by the [Clock Service](https://developer.fusionfabric.cloud/docs?workspace=FusionCreator%20Developer%20Portal&board=API%20Docs&api=clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4) at every 15 seconds.
+This is the user interface of the [clock-application](../clock-application) sample app, that consumes event notifications broadcasted by the [Clock Service](https://developer.fusionfabric.cloud/api/clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4/docs) at every 15 seconds.
 
 **To run this sample**
 
