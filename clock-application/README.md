@@ -16,7 +16,7 @@ It is provided with the purpose of illustrating the messaging capabilities of Fu
 mvn spring-boot:run
 ```
 
-2. Register an application on [**Fusion**Fabric.cloud Developer Portal](https://developer.fusionfabric.cloud), and include the [Clock Service](https://developer.fusionfabric.cloud/docs?workspace=FusionCreator%20Developer%20Portal&board=API%20Docs&api=clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4).  In the application creation wizard, pay attention to the following details:
+2. Register an application on [**Fusion**Fabric.cloud Developer Portal](https://developer.fusionfabric.cloud), and include the [Clock Service](https://developer.fusionfabric.cloud/api/clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4/docs).  In the application creation wizard, pay attention to the following details:
    + At the **Details** step, use `*` as the **Reply URL**.
    + At  the **Event** step use **the public URL that points to `localhost:8080`** as the **Base URL**. This is the `{{eventsBaseUrl}}` of the the listener endpoint.
 3. Start the UI sample application by following the instructions from [../clock-application-ui/README.md](../clock-application-ui/README.md). 
