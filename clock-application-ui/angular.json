@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "material-aio-example": {
+    "events-ui": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -53,18 +53,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "material-aio-example:build"
+            "browserTarget": "events-ui:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "material-aio-example:build:production"
+              "browserTarget": "events-ui:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "material-aio-example:build"
+            "browserTarget": "events-ui:build"
           }
         },
         "lint": {
@@ -82,5 +82,5 @@
       }
     }
   },
-  "defaultProject": "material-aio-example"
+  "defaultProject": "events-ui"
 }

@@ -1,6 +1,6 @@
 # Welcome
 
-This is the user interface of the [clock-application](../clock-application) sample app, that consumes event notifications broadcasted by the [Clock Service](https://developer.fusionfabric.cloud/api/clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4/docs) at every 15 seconds.
+This is the user interface of the [clock-application](../clock-application) sample app, that consumes event notifications broadcasted by the [Clock Service](https://developer.fusionfabric.cloud/api/clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4/docs) API at every 15 seconds.
 
 **To run this sample**
 
@@ -17,6 +17,6 @@ npm install
 ```
 npm start
 ```
-The application is build into `dist/`, and a webserver is started and listening on the port `4200`.
+The application is build, a webserver is started and listening on the port `4200`.
 
 5. Point your browser to http://localhost:4200. The home page of this sample client application is displayed.
