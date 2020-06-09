@@ -17,7 +17,7 @@ mvn spring-boot:run
 
 2. Register an application on [**Fusion**Fabric.cloud Developer Portal](https://developer.fusionfabric.cloud), and include the [Clock Service](https://developer.fusionfabric.cloud/api/clock-v1-5ce28ddc-dbbc-11e9-9d36-2a2ae2dbcce4/docs).  In the application creation wizard, pay attention to the following details from the **Building Blocks** step:
    + In the **Security** tab, use `*` as the **Reply URL**.
-   + In the **Events** tab, use **the public URL that points to `localhost:8080`** as the **Events Base URL**. This is the `{{eventsBaseUrl}}` of the the listener endpoint.
+   + In the **Events** tab, use **the public URL that points to `localhost:8080`** as the **Events Base URL**. This is the `{{eventsBaseUrl}}` of the listener endpoint.
 
 > Do not use http://localhost:8080 as the **Events Base URL**.
 
