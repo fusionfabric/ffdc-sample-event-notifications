@@ -6,6 +6,7 @@ To run the sample, go to the project sub-directories - **clock-application** and
 
 These sample client applications are released under the MIT License. See [LICENSE](LICENSE) for details.
 
-![example workflow](https://github.com/fusionfabric/ffdc-sample-event-notifications/actions/workflows/superlinter.yml/badge.svg)
+![example workflow](https://github.com/fusionfabric/ffdc-sample-event-notifications/actions/workflows/superlinter.yml/badge.svg) [![FOSSA Status](https://app.fossa.com/api/projects/custom%2B24247%2Fgithub.com%2Ffusionfabric%2Fffdc-sample-event-notifications.svg?type=shield)](https://app.fossa.com/projects/custom%2B24247%2Fgithub.com%2Ffusionfabric%2Fffdc-sample-event-notifications?ref=badge_shield) [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B24247%2Fgithub.com%2Ffusionfabric%2Fffdc-sample-event-notifications.svg?type=shield)](https://app.fossa.com/projects/custom%2B24247%2Fgithub.com%2Ffusionfabric%2Fffdc-sample-event-notifications?ref=badge_shield)
+
+
