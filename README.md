@@ -5,3 +5,5 @@ This repository contains an OAuth2 client composed of two application - a server
 To run the sample, go to the project sub-directories - **clock-application** and **clock-application-ui**, and follow the steps from the **README.md** files.
 
 These sample client applications are released under the MIT License. See [LICENSE](LICENSE) for details.
+
+[![FOSSA Status](https://app.fossa.com/api/projects/custom%2B24247%2Fgithub.com%2Ffusionfabric%2Fffdc-sample-event-notifications.svg?type=shield)](https://app.fossa.com/projects/custom%2B24247%2Fgithub.com%2Ffusionfabric%2Fffdc-sample-event-notifications?ref=badge_shield)
